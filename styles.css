@@ -65,3 +65,50 @@ figcaption {
     float: left;
     margin-right: 20px;
 }
+
+/* Make the map responsive */
+iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+/* Make images responsive */
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Ensure text and other content do not overflow on smaller screens */
+section, footer, header, nav {
+    box-sizing: border-box;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    nav {
+        padding: 8px;
+    }
+
+    nav a {
+        padding: 0 5px;
+    }
+
+    section {
+        margin: 10px;
+    }
+
+    footer {
+        padding: 8px 0;
+    }
+}
