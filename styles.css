@@ -1,0 +1,67 @@
+/* General Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray; /* Updated to color name */
+}
+
+/* Header */
+header {
+    background-color: darkslategray; /* Updated to color name */
+    color: white; /* Updated to color name */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: dimgray; /* Updated to color name */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white; /* Updated to color name */
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/* Main Content Section */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Updated to color name */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: darkslategray; /* Updated to color name */
+    color: white; /* Updated to color name */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Figure caption */
+figcaption {
+    text-align: left; /* Left-align the caption text */
+    font-style: italic; /* Make the caption text italic */
+    color: gray; /* Use the named color 'gray' for the caption */
+    margin-top: 10px; /* Add some space between the image and the caption */
+    margin-bottom: 50px; /* Add some space below the caption to avoid overlap with the footer */
+}
+
+/* Styling for the circular logo */
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the logo circular */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    float: left;
+    margin-right: 20px;
+}
